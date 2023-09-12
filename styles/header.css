@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
 body {
     font-family: "Lato", sans-serif;
     background-color: #eee;
@@ -5,7 +10,10 @@ body {
     overflow-x: hidden;
 }
 
-
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
 
 @media (max-width: 600px) {
     #header {
