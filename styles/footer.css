@@ -1,0 +1,41 @@
+
+footer{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: rgb(220, 220, 220);
+    max-width: 1010px;
+    margin: 2.5rem auto 0;
+    
+}
+
+.three p{
+    display: inline-block;
+    margin: 0;
+}
+
+.copyright{
+    margin: 0;
+}
+
+.footer-container{
+    width: 230px;
+    margin-right: 1rem;
+}
+
+.three{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0.5rem;
+}
+
+.copyright{
+    margin-top: 0.3rem;
+    font-size: 0.9rem;
+    color: rgb(68, 68, 68);
+}

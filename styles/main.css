@@ -1,45 +1,58 @@
-@media (max-width: 605px) {
+
+main {
+    padding-top: 140px;
+    z-index: -1;
+}
+
+@media (min-width: 650px){
     main {
-        padding-top: 140px;
-        z-index: -1;
-    }
-    #form {
-        height: 200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 1rem;
-    }
+        padding-top: 70px;
 
-    h2 {
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    p {
-        margin: 0 auto 5rem;
-        text-align: center;
-    }
-
-    #email {
-        margin-top: 1.2rem;
-        margin-bottom: 1rem;
-        width: 17rem;
-        height: 1.3rem;
-        text-indent: 0.2rem;
-    }
-
-    #submit {
-        width: 9.7rem;
-        height: 2rem;
-        background-color: rgb(241, 196, 15);
-        color: black;
-        font-weight: 900;
-        font-size: 1rem;
-        border: none;
-    }
-
-    #video {
-        display: flex;
     }
 }
+#form {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.bolded {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.descript {
+    margin: 0 auto 5rem;
+    text-align: center;
+}
+
+#email {
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    width: 17rem;
+    height: 1.3rem;
+    text-indent: 0.2rem;
+}
+
+#submit {
+    width: 9.7rem;
+    height: 2rem;
+    background-color: rgb(241, 196, 15);
+    color: black;
+    font-weight: 900;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+#submit:hover{
+    background-color: rgb(235, 163, 18);
+}
+#video {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
