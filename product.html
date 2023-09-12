@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <title>Product Landing Page</title>
     </head>
     <body>
@@ -28,12 +29,30 @@
                 <input id="email" type="email" name="email" placeholder="Enter your email address">
                 <input type="submit" id="submit" value="GET STARTED">
             </form>
-            <h2 class="bolded">Premium Materials</h2>
-            <p class="descript">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-            <h2 class="bolded">Fast Shipping</h2>
-            <p class="descript">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-            <h2 class="bolded">Quality Assurance</h2>
-            <p class="descript">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            <div class="icon-text-container">
+                <span class="material-symbols-outlined fire">
+                    local_fire_department
+                </span>
+                <div class="text-container">
+                    <h2 class="bolded">Premium Materials</h2>
+                    <p class="descript">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+                <span class="material-symbols-outlined fire">
+                    local_shipping
+                </span>
+                <div class="text-container">
+                    <h2 class="bolded">Fast Shipping</h2>
+                    <p class="descript">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+                <span class="material-symbols-outlined battery">
+                    battery_0_bar
+                </span>
+                <div class="text-container">
+                    <h2 class="bolded">Quality Assurance</h2>
+                    <p class="descript">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
+                
+            </div>
             <div id="video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=9HegJhLC4K_VQ-dK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
